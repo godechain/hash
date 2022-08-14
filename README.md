@@ -1,2 +1,2 @@
 # hash
-Lucky hash is a funny P2E game of gode chain
+Lucky hash is a funny P2E game of Godechain
