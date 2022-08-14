@@ -1,0 +1,288 @@
+
+.dark{
+	$light-bg-primary:#131922;
+	.static_popup{
+		.static_input{
+			/deep/.uni-input-input{
+				background-color: #3b3b3b;
+			}
+		}
+		
+	}
+}
+// 白天模式
+//默认
+$light-bg-primary:#F9F9F9;
+$light-static-primary:#FFFFFF;
+$light-content-primary:#ededed;
+.light{
+	height:100%;
+	background: $light-bg-primary;
+	.static{
+		    background: $light-static-primary;
+		    border: 2rpx solid #FFFFFF;
+		    color: #000;
+		}
+	.static_content{
+		background: $light-content-primary;
+		color: #000;
+	}
+	.static_price{
+		background:$light-content-primary;
+		color: #000;
+	}
+	.static_items{
+		background: $light-static-primary;
+		color: #000;
+	}
+	.one_price_content{
+		background-color: $light-static-primary;
+	}
+	.static_money_content{
+		background-color: $light-content-primary;
+		color: #000;
+	}
+	.border_view{
+		border-bottom: 2rpx solid #ededed !important;
+	}
+	.light-color{
+		color: #000 !important;
+	}
+	.wallet_content{
+		.uni-color-white{
+			color: #fff;
+		}
+	}
+	.wallet_content_tabbar{
+		background-color: #fff !important;
+		
+	}
+	.round_back{
+		background-color: #fff !important;
+	}
+	.static_popup{
+		background: #fff !important;
+		border-color: #fff !important;
+		color: #000000 !important;
+		.uni-input-input{
+			color: #000;
+		}
+		.static_input{
+			/deep/.uni-input-input{
+				background-color: #ededed;
+			}
+		}
+	}
+	.round_back{
+		border-color: #fff !important;
+	}
+	.invite_static{
+		background: #fff !important;
+	}
+}
+
+// 文字效果
+	.uni-bold{
+		font-weight: 700;
+	}
+	.uni-h1{
+		font-size: 60rpx;
+		font-weight: bold;
+	}
+	.uni-h2{
+		font-size: 48rpx;
+		font-weight: bold;
+	}
+	.uni-h3{
+		font-size: 40rpx;
+	}
+	.uni-18{
+		font-size: 36rpx;
+	}
+	.uni-h4{
+		font-size: 32rpx;
+	}
+	.uni-h5{
+		font-size: 28rpx;
+	}
+	.uni-h6{
+		font-size: 24rpx;
+	}
+	.uni-h7{
+		font-size: 20rpx;
+	}
+	// 文字排版
+	.uni-text-center{
+		text-align: center;
+		align-items: center;
+	}
+	.uni-color-white{
+		color: #fff;
+	}
+	.uni-color-gray2{
+		color: #ccc;
+	}
+	.uni-color-bule{
+		color: #4B60E0;
+	}
+	.uni-color-eee{
+		color: #EEEEEE;
+	}
+	.uni-color-999{
+		color: #999999;
+	}
+	.uni-color-666{
+		color: #666666;
+	}
+	.uni-color-yellow{
+		color:#FFB783;
+	}
+	.uni-color-303{
+		color: #303030 ;
+	}
+	.uni-color-black{
+		color: #000;
+	}
+	.uni-color-red{
+		color:#FF0000
+	}
+	.uni-text-indent{
+		text-indent: 2em;
+	}
+	.uni-color-green{
+		color: #1ad8b8;
+	}
+	.uni-color-red2{
+		color: #F64E7C;
+	}
+	// 图片效果
+	image{
+		flex-shrink: 0;
+	}
+	// 间距布局效果
+	// 垂直水平居中
+	.static{
+		    background: rgb(48,48,48);
+		    border: 2rpx solid #343d4f;
+		    color: #fff;
+		    border-radius: 20rpx;
+		    padding: 40rpx;
+		}
+	.static_content{
+		background: rgb(59,59,59);
+		padding: 20rpx 30rpx;
+		 border-radius: 20rpx;
+	}
+	.static_price{
+		background: rgb(59,59,59);
+		border-radius: 20rpx;
+		width: 260rpx;
+		padding: 20rpx;
+	}
+	.static_items{
+		background: #303030;
+		padding: 20rpx;
+		border-radius: 12rpx;
+	}
+	.one_price_content{
+		color: #fff;
+		background-color: #303030;
+		padding: 30rpx;
+		border-bottom-left-radius: 20rpx;
+		border-bottom-right-radius: 20rpx;
+	}
+	.static_money_content{
+		background: #3b3b3b;
+		padding: 20rpx 30rpx;
+		border-radius: 8rpx;
+	}
+	.flex-row-flex{
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+	}
+	.flex-row-between{
+		    display: flex;
+		    flex-direction: row;
+		    justify-content: space-between;
+		    align-items: center;
+	}
+	.flex-row-around{
+		    display: flex;
+		    flex-direction: row;
+		    justify-content: space-around;
+		    align-items: center;
+	}
+	.flex-row-center{
+		    display: flex;
+		    flex-direction: row;
+		    justify-content: center;
+		    align-items: center;
+	}
+	.flex-column-around{
+			display: flex;
+		    flex-direction: column;
+		    justify-content: space-around;
+		    align-items: center;
+	}
+	.flex-column{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	.flex-column-space{
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+	}
+	.flex-row-start{
+		    display: flex;
+		    flex-direction: row;
+		    justify-content: flex-start;
+		    align-items: center;
+	}
+	.mid_padding{
+		padding: 0rpx 30rpx;
+	}
+	.uni_margin_top{
+		margin-top: 20rpx;
+	}
+	.uni_margin{
+		margin: 40rpx 0;
+	}
+	.uni_margin_10{
+		margin: 20rpx 0;
+	}
+	.uni_margin_15{
+		margin: 30rpx 0;
+	}
+	.uni_margin_5{
+		margin: 10rpx 0;
+	}
+	.uni_padding_30{
+		padding: 30rpx;
+	}
+	// 标签样式
+	.uni-input{
+		border-width: 0;
+		    border-radius: 12rpx;
+		    font-size: 32rpx;
+		    padding: 16rpx 20rpx;
+		    font-weight: 700;
+		    text-align: center;
+		    background-color: #131922;
+	}
+	.u-button{
+		border-radius: 20rpx !important;
+	}
+
+	
+	.order-none{
+		text-align: center;
+		padding: 100upx 0;
+		background: #fff;
+	}
+	.order-none-img{
+		width: 274upx;
+		height: 274upx;
+	}
